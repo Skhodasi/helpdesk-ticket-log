@@ -21,8 +21,10 @@ Hosted in Oracle VirtualBox. The same lab supports my [password-spray detection 
 | 2 | [Password reset](ticket-02-password-reset/) | Reset a forgotten password with a forced change at next sign-in | ADUC, password policy, secure credential handling |
 | 3 | [New hire onboarding](ticket-03-new-hire-onboarding/) | Provisioned a new employee with role-based group access | OUs, security groups, ADAC, group-based policy |
 | 4 | [Employee offboarding](ticket-04-employee-offboarding/) | Removed a leaver's access and verified it, uncovering a cached-credential sign-in gap | Account disable, access removal, Kerberos (`klist`), cached logons |
+| 5 | [Shared folder access denied](ticket-05-shared-folder-access/) | Built a two-layer-secured department share and resolved an access-denied ticket | SMB shares, NTFS permissions, security groups, least privilege |
+**In progress:** drive mapping via Group Policy, Microsoft 365 / Entra ID.
 
-**In progress:** shared folder permissions, drive mapping via Group Policy, Microsoft 365 / Entra ID.
+
 
 ## Approach
 
