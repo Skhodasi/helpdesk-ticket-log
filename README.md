@@ -1,3 +1,4 @@
+
 # IT Help Desk Ticket Log & Troubleshooting Runbook
 
 Tier 1 service desk tickets resolved end to end in a Windows Active Directory home lab. Each ticket documents the issue, the investigation, the root cause, the fix, and how the fix was verified, with screenshots of every step.
@@ -22,6 +23,7 @@ Hosted in Oracle VirtualBox. The same lab supports my [password-spray detection 
 | 3 | [New hire onboarding](ticket-03-new-hire-onboarding/) | Provisioned a new employee with role-based group access | OUs, security groups, ADAC, group-based policy |
 | 4 | [Employee offboarding](ticket-04-employee-offboarding/) | Removed a leaver's access and verified it, uncovering a cached-credential sign-in gap | Account disable, access removal, Kerberos (`klist`), cached logons |
 | 5 | [Shared folder access denied](ticket-05-shared-folder-access/) | Built a two-layer-secured department share and resolved an access-denied ticket | SMB shares, NTFS permissions, security groups, least privilege |
+
 **In progress:** drive mapping via Group Policy, Microsoft 365 / Entra ID.
 
 
