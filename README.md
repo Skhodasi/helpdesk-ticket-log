@@ -23,8 +23,9 @@ Hosted in Oracle VirtualBox. The same lab supports my [password-spray detection 
 | 3 | [New hire onboarding](ticket-03-new-hire-onboarding/) | Provisioned a new employee with role-based group access | OUs, security groups, ADAC, group-based policy |
 | 4 | [Employee offboarding](ticket-04-employee-offboarding/) | Removed a leaver's access and verified it, uncovering a cached-credential sign-in gap | Account disable, access removal, Kerberos (`klist`), cached logons |
 | 5 | [Shared folder access denied](ticket-05-shared-folder-access/) | Built a two-layer-secured department share and resolved an access-denied ticket | SMB shares, NTFS permissions, security groups, least privilege |
+| 6 | [Mapped drive via Group Policy](ticket-06-mapped-drive-gpo/) | Mapped a department share with a GPO and resolved a DC-locator DNS fault | GPO Drive Maps, gpresult, DNS troubleshooting, nltest |
 
-**In progress:** drive mapping via Group Policy, Microsoft 365 / Entra ID.
+**In progress:** Microsoft 365 / Entra ID.
 
 
 
