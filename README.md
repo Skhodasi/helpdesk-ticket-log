@@ -26,8 +26,9 @@ Hosted in Oracle VirtualBox. The same lab supports my [password-spray detection 
 | 6 | [Mapped drive via Group Policy](ticket-06-mapped-drive-gpo/) | Mapped a department share with a GPO and resolved a DC-locator DNS fault | GPO Drive Maps, gpresult, DNS troubleshooting, nltest |
 | 7 | [Microsoft 365 new user](ticket-07-m365-new-user/) | Created and licensed a cloud user, then verified first sign-in and mailbox | Microsoft 365 admin center, Entra ID, licensing |
 | 8 | [MFA reset after lost phone](ticket-08-mfa-reset/) | Removed a lost phone's Authenticator, revoked sessions and re-registered MFA | Entra ID authentication methods, session revocation, MFA |
+| 9 | [Intune enrollment and compliance](ticket-09-intune-compliance/) | Enrolled a device, built a compliance policy, and found BitLocker unprotected despite a "Compliant" result | Intune, compliance policies, BitLocker, manage-bde, TPM |
 
-**In progress:** Intune device management, ServiceNow ticketing.
+**In progress:** ServiceNow ticketing, troubleshooting runbook.
 
 
 
