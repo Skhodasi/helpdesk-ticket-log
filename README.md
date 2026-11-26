@@ -1,7 +1,6 @@
-
 # IT Help Desk Ticket Log & Troubleshooting Runbook
 
-Tier 1 service desk tickets resolved end to end in a Windows Active Directory home lab. Each ticket documents the issue, the investigation, the root cause, the fix, and how the fix was verified, with screenshots of every step.
+Tier 1 service desk tickets resolved end to end in a home lab that combines on-premises Active Directory with Microsoft 365, Entra ID and Intune. Each ticket documents the issue, the investigation, the root cause, the fix, and how the fix was verified, with screenshots of every step.
 
 The aim is to show how I approach support work: confirm who I'm helping, find the actual cause instead of guessing, fix it with the least access needed, and verify before closing. My CompTIA Security+ background shapes each decision.
 
@@ -10,7 +9,8 @@ The aim is to show how I approach support work: confirm who I'm helping, find th
 | Machine | Role | OS |
 | --- | --- | --- |
 | DC01 | Domain controller for `lab.local` (Server Core, no GUI) | Windows Server 2025 |
-| WIN10-01 | Domain-joined help desk workstation with RSAT | Windows 11 Pro |
+| WIN10-01 | Domain-joined help desk workstation with RSAT, enrolled in Intune | Windows 11 Pro |
+| Hodasi Lab tenant | Microsoft 365 Business Premium: Entra ID users and MFA, Intune device management | Cloud |
 
 Hosted in Oracle VirtualBox. The same lab supports my [password-spray detection project](https://github.com/Skhodasi/detection-lab-password-spray).
 
@@ -30,8 +30,6 @@ Hosted in Oracle VirtualBox. The same lab supports my [password-spray detection 
 
 **In progress:** ServiceNow ticketing, troubleshooting runbook.
 
-
-
 ## Approach
 
 - **GUI first, PowerShell second.** Each task uses the tools a Tier 1 analyst uses daily (ADUC, ADAC, Event Viewer), with the PowerShell equivalent for scale and automation.
@@ -40,4 +38,5 @@ Hosted in Oracle VirtualBox. The same lab supports my [password-spray detection 
 - **Confirm the fix.** Every ticket is checked from both the admin and the user side before closing.
 
 ---
+
 Selorm Hodasi · CompTIA Security+ · [GitHub](https://github.com/Skhodasi)
